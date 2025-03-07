@@ -1,0 +1,1 @@
+echo "$(minikube ip) argocd.local" | sudo tee -a /etc/hosts

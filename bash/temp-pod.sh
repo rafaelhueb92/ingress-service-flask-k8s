@@ -4,3 +4,4 @@
 # wget -qO- http://simple-flask-svc:5001
 
 k run tmp -n dev --restart=Never --rm --image=busybox -i -- wget -qO- http://simple-flask-svc:5001
+k run tmp -n argocd --restart=Never --rm --image=busybox -i -- wget -qO- http://argocd-server-svc
