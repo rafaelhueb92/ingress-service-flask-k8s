@@ -6,7 +6,7 @@ metadata:
 spec:
   destination:
     namespace: dev
-    server: "http://argocd.local"
+    server: "https://kubernetes.default.svc" # URL KUBERNETES API SERVER / DEFAULT SVC URL
   project: default
   source:
     path: manifests
