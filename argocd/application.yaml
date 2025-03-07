@@ -11,7 +11,7 @@ spec:
   source:
     path: manifests
     repoURL: "https://github.com/rafaelhueb92/ingress-service-flask-k8s"
-    targetRevision: master
+    targetRevision: main
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
