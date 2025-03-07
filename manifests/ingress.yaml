@@ -12,7 +12,7 @@ spec:
   - host: simple-flask.local
     http:
       paths:
-      - path: /
+      - path: /app
         pathType: Prefix
         backend:
           service:
