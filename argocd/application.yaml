@@ -1,12 +1,12 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: guestbook
+  name: simple-flask
   namespace: argocd
 spec:
   destination:
     namespace: dev
-    server: "https://argocd.local"
+    server: "http://argocd.local"
   project: default
   source:
     path: manifests
