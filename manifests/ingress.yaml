@@ -5,10 +5,10 @@ metadata:
   namespace: dev
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
-    kubernetes.io/ingress.class: "nginx"
+    kubernetes.io/ingress.class: "flask-ingress"
    # nginx.ingress.kubernetes.io/ssl-redirect: "false"
 spec:
-  ingressClassName: nginx
+  ingressClassName: flask-ingress
   rules:
   - host: simple-flask.local
     http:
