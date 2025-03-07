@@ -1,0 +1,1 @@
+helm upgrade --reuse-values -n ingress-nginx nginx-ingress ingress-nginx/ingress-nginx
