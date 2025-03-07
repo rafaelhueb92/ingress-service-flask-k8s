@@ -13,7 +13,7 @@ spec:
   - host: argocd.local
     http:
       paths:
-      - path: /
+      - path: /ui
         pathType: Prefix
         backend:
           service:
